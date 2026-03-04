@@ -2,128 +2,199 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Hruthik J | VLSI Engineer</title>
+    <title>Hruthik Jayarama | Hardware Design & Verification</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Navigation -->
-    <nav>
-        <div class="logo">Hruthik J</div>
+<nav>
+    <div class="logo">Hruthik Jayarama</div>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- HOME -->
+<section id="home" class="section hero">
+    <h1>Hruthik Jayarama</h1>
+    <h2>MS Electrical & Computer Engineering</h2>
+    <p>RTL Design | Computer Architecture | UVM Verification | Formal Methods</p>
+
+    <div class="buttons">
+        <a href="assets/resume.pdf" class="btn" target="_blank">Download Resume</a>
+        <a href="https://github.com/YOUR_GITHUB" class="btn outline" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/hruthikjayarama" class="btn outline" target="_blank">LinkedIn</a>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+        Graduate student in Electrical and Computer Engineering at Portland State University 
+        with strong focus on RTL design, cache coherence protocols, pipelined processors, and 
+        verification methodologies. Experienced in building synthesizable hardware modules 
+        and architecting verification environments using UVM and formal tools. 
+        Published research on cache coherence and processor optimization.
+    </p>
+
+    <p>
+        My work spans split L1 and shared L2 cache architectures, MESI coherence validation, 
+        5-stage pipelined MIPS simulation, Tomasulo’s out-of-order execution, asynchronous FIFO 
+        design, and formal verification using VC Formal and JasperGold.
+    </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+    <h2>Technical Skills</h2>
+
+    <div class="skill-group">
+        <h3>Programming & HDL</h3>
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li>Verilog</li>
+            <li>SystemVerilog</li>
+            <li>UVM</li>
+            <li>Python</li>
+            <li>C</li>
         </ul>
-    </nav>
+    </div>
 
-    <!-- Home -->
-    <section id="home" class="section hero">
-        <h1>Hruthik J</h1>
-        <h2>MS Electrical & Computer Engineering</h2>
-        <p>VLSI Design | RTL Architecture | UVM Verification | Hardware Acceleration</p>
-        <div class="buttons">
-            <a href="assets/resume.pdf" class="btn" target="_blank">Download Resume</a>
-            <a href="https://github.com/YOUR_USERNAME" class="btn outline" target="_blank">GitHub</a>
-        </div>
-    </section>
+    <div class="skill-group">
+        <h3>Architecture & Design Concepts</h3>
+        <ul>
+            <li>Cache Coherence (MESI, MSI)</li>
+            <li>Pipelining & Forwarding</li>
+            <li>Out-of-Order Execution (Tomasulo)</li>
+            <li>Branch Prediction</li>
+            <li>DDR & Memory Systems</li>
+            <li>MIPS Architecture</li>
+        </ul>
+    </div>
 
-    <!-- About -->
-    <section id="about" class="section">
-        <h2>About Me</h2>
+    <div class="skill-group">
+        <h3>Verification</h3>
+        <ul>
+            <li>Functional & Code Coverage</li>
+            <li>Randomization & Sequences</li>
+            <li>Concurrent & Immediate Assertions</li>
+            <li>Formal Verification</li>
+            <li>VC Formal</li>
+            <li>JasperGold</li>
+        </ul>
+    </div>
+
+    <div class="skill-group">
+        <h3>Tools & Platforms</h3>
+        <ul>
+            <li>Siemens QuestaSim</li>
+            <li>Cadence Virtuoso</li>
+            <li>ModelSim</li>
+            <li>Xilinx Simulator</li>
+            <li>MobaXterm</li>
+            <li>Linux / Windows</li>
+        </ul>
+    </div>
+
+    <div class="skill-group">
+        <h3>Protocols</h3>
+        <ul>
+            <li>UART</li>
+            <li>SPI</li>
+            <li>I2C</li>
+            <li>APB</li>
+        </ul>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+        <h3>Split L1 + Shared L2 Cache Controller (MESI)</h3>
         <p>
-            I design and verify synthesizable hardware architectures with a focus on 
-            MAC units for CNN workloads, Wallace tree multipliers, and class-based 
-            SystemVerilog verification environments. Experienced in building 
-            hierarchical RTL modules and achieving high functional coverage using UVM.
+            Designed 4-way instruction and 8-way data L1 caches with LRU replacement policy.
+            Implemented inclusive shared L2 cache supporting 4-core architecture.
+            Integrated MESI coherence protocol and validated zero coherence violations 
+            through protocol-level verification and performance tracking logic.
         </p>
-    </section>
+    </div>
 
-    <!-- Skills -->
-    <section id="skills" class="section">
-        <h2>Technical Skills</h2>
+    <div class="project-card">
+        <h3>MIPS Lite 5-Stage Pipeline Simulator</h3>
+        <p>
+            Developed functional and cycle-accurate timing simulator for MIPS-lite ISA 
+            modeling 5-stage in-order pipeline. Implemented forwarding logic to resolve RAW 
+            hazards and mitigate branch mispredictions. Performed trace analysis and 
+            quantitative speedup evaluation.
+        </p>
+    </div>
 
-        <div class="skill-group">
-            <h3>Hardware Design</h3>
-            <ul>
-                <li>Verilog / SystemVerilog</li>
-                <li>RTL Design & Synthesis</li>
-                <li>MAC Architecture</li>
-                <li>Wallace Tree Multiplier</li>
-            </ul>
-        </div>
+    <div class="project-card">
+        <h3>Tomasulo’s Algorithm Simulator</h3>
+        <p>
+            Architected dynamic scheduling engine with reservation stations and register renaming.
+            Supported 8+ instruction types enabling out-of-order execution and throughput 
+            analysis using latency modeling and cycle-accurate simulation.
+        </p>
+    </div>
 
-        <div class="skill-group">
-            <h3>Verification</h3>
-            <ul>
-                <li>UVM</li>
-                <li>Functional Coverage</li>
-                <li>Assertions</li>
-                <li>Scoreboarding</li>
-            </ul>
-        </div>
+    <div class="project-card">
+        <h3>Asynchronous FIFO with UVM Verification</h3>
+        <p>
+            Designed 256-depth async FIFO with full, empty, half-full, and quarter-full flags.
+            Mitigated metastability risks and achieved 95%+ functional coverage through reusable
+            UVM-based verification environment.
+        </p>
+    </div>
 
-        <div class="skill-group">
-            <h3>Parallel Computing</h3>
-            <ul>
-                <li>MPI</li>
-                <li>Pthreads</li>
-                <li>Performance Profiling</li>
-                <li>Speedup Analysis</li>
-            </ul>
-        </div>
+    <div class="project-card">
+        <h3>2x2 Arbiter – Formal Verification</h3>
+        <p>
+            Developed assertion-based verification environment using bind files.
+            Achieved 100% formal closure using VC Formal and JasperGold by identifying 
+            and resolving corner-case arbitration bugs.
+        </p>
+    </div>
 
-        <div class="skill-group">
-            <h3>Tools</h3>
-            <ul>
-                <li>Questa / ModelSim</li>
-                <li>Vivado</li>
-                <li>Linux</li>
-                <li>Git</li>
-            </ul>
-        </div>
-    </section>
+    <div class="project-card">
+        <h3>SPI Master-Slave Controller</h3>
+        <p>
+            Designed FSM-based SPI master and slave modules supporting multi-slave configuration.
+            Verified full-duplex communication and timing compliance using SystemVerilog testbench.
+        </p>
+    </div>
+</section>
 
-    <!-- Projects -->
-    <section id="projects" class="section">
-        <h2>Projects</h2>
+<!-- CONTACT -->
+<section id="contact" class="section">
+    <h2>Contact</h2>
+    <p><strong>Email:</strong> hruthik@pdx.edu</p>
+    <p><strong>Phone:</strong> +1 (503)-421-9673</p>
+    <p><strong>Location:</strong> Portland, Oregon</p>
+    <p>
+        <strong>LinkedIn:</strong>
+        <a href="https://www.linkedin.com/in/hruthikjayarama" target="_blank">
+            linkedin.com/in/hruthikjayarama
+        </a>
+    </p>
+    <p>
+        <strong>Certifications:</strong><br>
+        SystemVerilog for Design and Verification – Cadence<br>
+        Essential SystemVerilog for UVM – Cadence
+    </p>
+</section>
 
-        <div class="project-card">
-            <h3>CNN MAC Unit with Wallace Tree Multiplier</h3>
-            <p>
-                Designed hierarchical MAC architecture (mul + acc modules) for CNN workloads.
-                Implemented overflow and underflow detection. Achieved 100% functional coverage
-                using class-based SystemVerilog testbench.
-            </p>
-            <a href="https://github.com/YOUR_USERNAME/mac-project" target="_blank">View Repository</a>
-        </div>
+<footer>
+    <p>© 2026 Hruthik Jayarama</p>
+</footer>
 
-        <div class="project-card">
-            <h3>MPI Heat Diffusion Simulation</h3>
-            <p>
-                Parallelized 2D heat simulation using MPI and pthreads. Measured execution
-                time, analyzed speedup across threads, and optimized memory usage.
-            </p>
-            <a href="https://github.com/YOUR_USERNAME/mpi-project" target="_blank">View Repository</a>
-        </div>
-
-    </section>
-
-    <!-- Contact -->
-    <section id="contact" class="section">
-        <h2>Contact</h2>
-        <p>Email: your.email@example.com</p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/YOUR_LINK" target="_blank">Profile</a></p>
-        <p>GitHub: <a href="https://github.com/YOUR_USERNAME" target="_blank">Repository</a></p>
-    </section>
-
-    <footer>
-        <p>© 2026 Hruthik J</p>
-    </footer>
-
-    <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
