@@ -15,6 +15,7 @@
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
         <li><a href="#contact">Contact</a></li>
     </ul>
 </nav>
@@ -26,8 +27,8 @@
     <p>RTL Design | Computer Architecture | UVM Verification | Formal Methods</p>
 
     <div class="buttons">
-        <a href="assets/resume.pdf" class="btn" target="_blank">Download Resume</a>
-        <a href="https://github.com/YOUR_GITHUB" class="btn outline" target="_blank">GitHub</a>
+        <a href="assets/resume.pdf" class="btn">Download Resume</a>
+        <a href="https://github.com/hruthikj7349" class="btn outline" target="_blank">GitHub</a>
         <a href="https://www.linkedin.com/in/hruthikjayarama" class="btn outline" target="_blank">LinkedIn</a>
     </div>
 </section>
@@ -36,17 +37,14 @@
 <section id="about" class="section">
     <h2>About Me</h2>
     <p>
-        Graduate student in Electrical and Computer Engineering at Portland State University 
-        with strong focus on RTL design, cache coherence protocols, pipelined processors, and 
-        verification methodologies. Experienced in building synthesizable hardware modules 
-        and architecting verification environments using UVM and formal tools. 
-        Published research on cache coherence and processor optimization.
+        Graduate student at Portland State University specializing in RTL design,
+        cache coherence protocols, pipelined processor architecture, and UVM-based
+        verification methodologies.
     </p>
-
     <p>
-        My work spans split L1 and shared L2 cache architectures, MESI coherence validation, 
-        5-stage pipelined MIPS simulation, Tomasulo’s out-of-order execution, asynchronous FIFO 
-        design, and formal verification using VC Formal and JasperGold.
+        Experience includes MESI-based cache controllers, MIPS 5-stage pipelines,
+        Tomasulo out-of-order execution, asynchronous FIFO design, and formal
+        verification using VC Formal and JasperGold.
     </p>
 </section>
 
@@ -66,14 +64,13 @@
     </div>
 
     <div class="skill-group">
-        <h3>Architecture & Design Concepts</h3>
+        <h3>Architecture & Concepts</h3>
         <ul>
             <li>Cache Coherence (MESI, MSI)</li>
             <li>Pipelining & Forwarding</li>
-            <li>Out-of-Order Execution (Tomasulo)</li>
+            <li>Out-of-Order Execution</li>
             <li>Branch Prediction</li>
-            <li>DDR & Memory Systems</li>
-            <li>MIPS Architecture</li>
+            <li>Memory Systems</li>
         </ul>
     </div>
 
@@ -81,33 +78,10 @@
         <h3>Verification</h3>
         <ul>
             <li>Functional & Code Coverage</li>
-            <li>Randomization & Sequences</li>
-            <li>Concurrent & Immediate Assertions</li>
+            <li>Assertions</li>
             <li>Formal Verification</li>
             <li>VC Formal</li>
             <li>JasperGold</li>
-        </ul>
-    </div>
-
-    <div class="skill-group">
-        <h3>Tools & Platforms</h3>
-        <ul>
-            <li>Siemens QuestaSim</li>
-            <li>Cadence Virtuoso</li>
-            <li>ModelSim</li>
-            <li>Xilinx Simulator</li>
-            <li>MobaXterm</li>
-            <li>Linux / Windows</li>
-        </ul>
-    </div>
-
-    <div class="skill-group">
-        <h3>Protocols</h3>
-        <ul>
-            <li>UART</li>
-            <li>SPI</li>
-            <li>I2C</li>
-            <li>APB</li>
         </ul>
     </div>
 </section>
@@ -117,78 +91,46 @@
     <h2>Projects</h2>
 
     <div class="project-card">
-        <h3>Split L1 + Shared L2 Cache Controller (MESI)</h3>
+        <h3>Split L1 + Shared L2 Cache (MESI)</h3>
         <p>
-            Designed 4-way instruction and 8-way data L1 caches with LRU replacement policy.
-            Implemented inclusive shared L2 cache supporting 4-core architecture.
-            Integrated MESI coherence protocol and validated zero coherence violations 
-            through protocol-level verification and performance tracking logic.
+            Designed 4-way instruction and 8-way data L1 caches with LRU replacement.
+            Implemented MESI protocol with inclusive L2. Achieved zero coherence violations.
         </p>
     </div>
 
     <div class="project-card">
-        <h3>MIPS Lite 5-Stage Pipeline Simulator</h3>
+        <h3>MIPS 5-Stage Pipeline Simulator</h3>
         <p>
-            Developed functional and cycle-accurate timing simulator for MIPS-lite ISA 
-            modeling 5-stage in-order pipeline. Implemented forwarding logic to resolve RAW 
-            hazards and mitigate branch mispredictions. Performed trace analysis and 
-            quantitative speedup evaluation.
+            Developed cycle-accurate simulator implementing forwarding logic
+            to resolve RAW hazards and evaluate performance improvements.
         </p>
     </div>
 
     <div class="project-card">
-        <h3>Tomasulo’s Algorithm Simulator</h3>
+        <h3>Tomasulo’s Algorithm</h3>
         <p>
-            Architected dynamic scheduling engine with reservation stations and register renaming.
-            Supported 8+ instruction types enabling out-of-order execution and throughput 
-            analysis using latency modeling and cycle-accurate simulation.
+            Implemented dynamic scheduling with reservation stations
+            and register renaming supporting multiple instruction types.
         </p>
     </div>
 
     <div class="project-card">
-        <h3>Asynchronous FIFO with UVM Verification</h3>
+        <h3>Asynchronous FIFO (UVM)</h3>
         <p>
-            Designed 256-depth async FIFO with full, empty, half-full, and quarter-full flags.
-            Mitigated metastability risks and achieved 95%+ functional coverage through reusable
-            UVM-based verification environment.
+            Designed 256-depth FIFO with full/empty flags.
+            Achieved 95%+ functional coverage in UVM environment.
         </p>
     </div>
 
     <div class="project-card">
         <h3>2x2 Arbiter – Formal Verification</h3>
         <p>
-            Developed assertion-based verification environment using bind files.
-            Achieved 100% formal closure using VC Formal and JasperGold by identifying 
-            and resolving corner-case arbitration bugs.
-        </p>
-    </div>
-
-    <div class="project-card">
-        <h3>SPI Master-Slave Controller</h3>
-        <p>
-            Designed FSM-based SPI master and slave modules supporting multi-slave configuration.
-            Verified full-duplex communication and timing compliance using SystemVerilog testbench.
+            Built assertion-based environment achieving 100% formal closure.
         </p>
     </div>
 </section>
 
-<!-- CONTACT -->
-<section id="contact" class="section">
-    <h2>Contact</h2>
-    <p><strong>Email:</strong> hruthik@pdx.edu</p>
-    <p><strong>Phone:</strong> +1 (503)-421-9673</p>
-    <p><strong>Location:</strong> Portland, Oregon</p>
-    <p>
-        <strong>LinkedIn:</strong>
-        <a href="https://www.linkedin.com/in/hruthikjayarama" target="_blank">
-            linkedin.com/in/hruthikjayarama
-        </a>
-    </p>
-    <p>
-        <strong>Certifications:</strong><br>
-        SystemVerilog for Design and Verification – Cadence<br>
-        Essential SystemVerilog for UVM – Cadence
-        <!-- CERTIFICATIONS -->
+<!-- CERTIFICATIONS -->
 <section id="certifications" class="section">
     <h2>Certifications</h2>
 
@@ -212,7 +154,13 @@
 
     </div>
 </section>
-    </p>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Email: hruthik@pdx.edu</p>
+    <p>Phone: +1 (503)-421-9673</p>
+    <p>Portland, Oregon</p>
 </section>
 
 <footer>
