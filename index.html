@@ -1,30 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<link rel="icon" href="/images/favicon.png" type="image/png" />
+
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@1&display=swap" rel="stylesheet"/>
 
 <title>Hruthik Jayarama | Hardware Design & Verification</title>
 
-<link rel="stylesheet" href="/css/style.css">
+<script type="module" crossorigin src="/assets/index-D7aAfpKJ.js"></script>
+<link rel="stylesheet" crossorigin href="/assets/index-CB0MzYE-.css">
 
-<script src="https://kit.fontawesome.com/4c9c9c7d8c.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
 
 </head>
 
-<body>
 
-<header>
+<body class="bg-gray-950 text-gray-200 font-[Satoshi]">
 
-<div class="container nav">
+<!-- NAVBAR -->
 
-<h2 class="logo">HJ</h2>
+<header class="fixed top-0 w-full backdrop-blur bg-black/40 border-b border-gray-800 z-50">
+
+<div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+
+<div class="text-xl font-semibold tracking-wide text-white">
+Hruthik Jayarama
+</div>
 
 <nav>
-<a href="#about">About</a>
-<a href="#projects">Projects</a>
-<a href="#certifications">Certifications</a>
-<a href="#contact">Contact</a>
+
+<ul class="flex gap-8 text-sm text-gray-300">
+
+<li><a href="#home" class="hover:text-cyan-400">Home</a></li>
+<li><a href="#about" class="hover:text-cyan-400">About</a></li>
+<li><a href="#skills" class="hover:text-cyan-400">Skills</a></li>
+<li><a href="#projects" class="hover:text-cyan-400">Projects</a></li>
+<li><a href="#certifications" class="hover:text-cyan-400">Certifications</a></li>
+<li><a href="#contact" class="hover:text-cyan-400">Contact</a></li>
+
+</ul>
+
 </nav>
 
 </div>
@@ -32,141 +52,396 @@
 </header>
 
 
-<section class="hero">
 
-<div class="hero-content">
+<main class="pt-28">
 
-<img src="/assets/profile.jpg" class="profile-img">
+<!-- HERO -->
 
-<h1>Hruthik Jayarama</h1>
+<section id="home" class="min-h-screen flex items-center justify-center text-center px-6">
 
-<p class="tagline">
-Graduate student at Portland State University specializing in Design Verification,
-Computer Architecture, UVM and Formal Verification methodologies.
+<div class="max-w-3xl">
+
+<h1 class="text-6xl font-bold text-white mb-6">
+Hruthik Jayarama
+</h1>
+
+<h2 class="text-3xl text-gray-400 mb-6">
+MS Electrical & Computer Engineering
+</h2>
+
+<p class="text-lg text-gray-400 mb-10">
+RTL Design | Computer Architecture | UVM Verification | Formal Methods
 </p>
 
-<div class="socials">
+<div class="flex justify-center gap-6 flex-wrap">
 
-<a href="https://github.com"><i class="fab fa-github"></i></a>
-<a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a>
+<a href="HRUTHIK_JAYARAMA_Resume_Resume (1).pdf"
+class="px-6 py-3 rounded-lg bg-cyan-500 text-black font-semibold hover:bg-cyan-400 transition">
 
-</div>
+Download Resume
 
-</div>
-
-</section>
-
-
-
-<section id="about" class="section">
-
-<h2>About</h2>
-
-<p>
-MS Electrical and Computer Engineering student focused on RTL design,
-verification methodologies and scalable hardware architectures.
-Interested in building high-performance verification environments
-for modern AI hardware systems.
-</p>
-
-</section>
-
-
-
-<section id="projects" class="section">
-
-<h2>Projects</h2>
-
-<div class="projects-grid">
-
-<div class="project-card">
-
-<h3>MAC Unit Design</h3>
-
-<p>
-SystemVerilog implementation of a Multiply-Accumulate unit using
-a Wallace tree multiplier with overflow and underflow detection.
-</p>
-
-<a href="https://github.com">View Project</a>
-
-</div>
-
-
-
-<div class="project-card">
-
-<h3>Async FIFO Verification</h3>
-
-<p>
-UVM based verification environment for asynchronous FIFO including
-scoreboard, coverage collection and constrained random testing.
-</p>
-
-<a href="https://github.com">View Project</a>
-
-</div>
-
-
-
-<div class="project-card">
-
-<h3>SystemVerilog Testbench</h3>
-
-<p>
-Class-based verification environment with functional coverage
-and directed tests for RTL verification.
-</p>
-
-<a href="https://github.com">View Project</a>
-
-</div>
-
-</div>
-
-</section>
-
-
-
-<section id="certifications" class="section">
-
-<h2>Certifications</h2>
-
-<div class="cert-grid">
-
-<a href="https://www.credly.com/badges/514f339c-9805-4aac-ad4f-ef7871f5c298/public_url">
-<img src="/assets/cert1.png">
 </a>
 
-<a href="https://www.credly.com/badges/2fa217dc-d930-409a-aa2f-7e18d5691379/public_url">
-<img src="/assets/cert2.png">
+<a href="https://github.com/hruthikj7349" target="_blank"
+class="px-6 py-3 rounded-lg border border-gray-700 hover:border-cyan-400 hover:text-cyan-400 transition">
+
+GitHub
+
+</a>
+
+<a href="https://www.linkedin.com/in/hruthikjayarama" target="_blank"
+class="px-6 py-3 rounded-lg border border-gray-700 hover:border-cyan-400 hover:text-cyan-400 transition">
+
+LinkedIn
+
 </a>
 
 </div>
 
-</section>
-
-
-
-<section id="contact" class="section">
-
-<h2>Contact</h2>
-
-<p>Email: your-email@email.com</p>
-
-<p>Portland, Oregon</p>
+</div>
 
 </section>
 
 
 
-<footer>
+<!-- ABOUT -->
+
+<section id="about" class="py-28 border-t border-gray-800">
+
+<div class="max-w-4xl mx-auto px-6">
+
+<h2 class="text-4xl font-semibold mb-10 text-white">
+About Me
+</h2>
+
+<p class="text-gray-400 leading-relaxed mb-6">
+Graduate student at Portland State University specializing in Design Verification and Validation with a strong focus on Computer Architecture, UVM, and Formal Verification methodologies. Experienced in developing robust testbenches, creating functional and code coverage models, and applying formal methods to ensure design correctness.
+</p>
+
+<p class="text-gray-400 leading-relaxed">
+Skilled in verifying complex digital systems, including MAC units, with attention to performance, reliability, and edge-case validation. Passionate about bridging the gap between architecture and verification to deliver hardware that works as intended.
+</p>
+
+</div>
+
+</section>
+
+
+
+<!-- SKILLS -->
+
+<section id="skills" class="py-28 border-t border-gray-800">
+
+<div class="max-w-6xl mx-auto px-6">
+
+<h2 class="text-4xl font-semibold mb-16 text-white">
+Technical Skills
+</h2>
+
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
+
+<div>
+
+<h3 class="text-xl font-semibold mb-4 text-cyan-400">
+Programming & HDL
+</h3>
+
+<ul class="space-y-2 text-gray-400">
+<li>Verilog</li>
+<li>SystemVerilog</li>
+<li>UVM</li>
+<li>Python</li>
+<li>C</li>
+</ul>
+
+</div>
+
+
+<div>
+
+<h3 class="text-xl font-semibold mb-4 text-cyan-400">
+Architecture & Design Concepts
+</h3>
+
+<ul class="space-y-2 text-gray-400">
+<li>Cache Coherence (MESI, MSI)</li>
+<li>Pipelining & Forwarding</li>
+<li>Out-of-Order Execution (Tomasulo)</li>
+<li>Branch Prediction</li>
+<li>DDR & Memory Systems</li>
+<li>MIPS Architecture</li>
+</ul>
+
+</div>
+
+
+<div>
+
+<h3 class="text-xl font-semibold mb-4 text-cyan-400">
+Verification
+</h3>
+
+<ul class="space-y-2 text-gray-400">
+<li>Functional & Code Coverage</li>
+<li>Randomization & Sequences</li>
+<li>Concurrent & Immediate Assertions</li>
+<li>Formal Verification</li>
+<li>VC Formal</li>
+<li>JasperGold</li>
+</ul>
+
+</div>
+
+
+<div>
+
+<h3 class="text-xl font-semibold mb-4 text-cyan-400">
+Tools & Platforms
+</h3>
+
+<ul class="space-y-2 text-gray-400">
+<li>Siemens QuestaSim</li>
+<li>Cadence Virtuoso</li>
+<li>ModelSim</li>
+<li>Xilinx Simulator</li>
+<li>MobaXterm</li>
+<li>Linux / Windows</li>
+</ul>
+
+</div>
+
+
+<div>
+
+<h3 class="text-xl font-semibold mb-4 text-cyan-400">
+Protocols
+</h3>
+
+<ul class="space-y-2 text-gray-400">
+<li>UART</li>
+<li>SPI</li>
+<li>I2C</li>
+<li>APB</li>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- PROJECTS -->
+
+<section id="projects" class="py-28 border-t border-gray-800">
+
+<div class="max-w-6xl mx-auto px-6">
+
+<h2 class="text-4xl font-semibold mb-16 text-white">
+Projects
+</h2>
+
+<div class="grid md:grid-cols-2 gap-10">
+
+<div class="bg-gray-900 p-8 rounded-xl border border-gray-800 hover:border-cyan-500 transition">
+
+<h3 class="text-xl font-semibold text-white mb-4">
+Split L1 + Shared L2 Cache Controller (MESI)
+</h3>
+
+<p class="text-gray-400">
+Designed 4-way instruction and 8-way data L1 caches with LRU replacement policy.
+Implemented inclusive shared L2 cache supporting 4-core architecture.
+Integrated MESI coherence protocol and validated zero coherence violations through protocol-level verification and performance tracking logic.
+</p>
+
+</div>
+
+
+<div class="bg-gray-900 p-8 rounded-xl border border-gray-800 hover:border-cyan-500 transition">
+
+<h3 class="text-xl font-semibold text-white mb-4">
+MIPS Lite 5-Stage Pipeline Simulator
+</h3>
+
+<p class="text-gray-400">
+Developed functional and cycle-accurate timing simulator for MIPS-lite ISA modeling 5-stage in-order pipeline.
+Implemented forwarding logic to resolve RAW hazards and mitigate branch mispredictions.
+Performed trace analysis and quantitative speedup evaluation.
+</p>
+
+</div>
+
+
+<div class="bg-gray-900 p-8 rounded-xl border border-gray-800 hover:border-cyan-500 transition">
+
+<h3 class="text-xl font-semibold text-white mb-4">
+Tomasulo’s Algorithm Simulator
+</h3>
+
+<p class="text-gray-400">
+Architected dynamic scheduling engine with reservation stations and register renaming.
+Supported 8+ instruction types enabling out-of-order execution and throughput analysis using latency modeling and cycle-accurate simulation.
+</p>
+
+</div>
+
+
+<div class="bg-gray-900 p-8 rounded-xl border border-gray-800 hover:border-cyan-500 transition">
+
+<h3 class="text-xl font-semibold text-white mb-4">
+Asynchronous FIFO with UVM Verification
+</h3>
+
+<p class="text-gray-400">
+Designed 256-depth async FIFO with full, empty, half-full, and quarter-full flags.
+Mitigated metastability risks and achieved 95%+ functional coverage through reusable UVM-based verification environment.
+</p>
+
+</div>
+
+
+<div class="bg-gray-900 p-8 rounded-xl border border-gray-800 hover:border-cyan-500 transition">
+
+<h3 class="text-xl font-semibold text-white mb-4">
+2x2 Arbiter – Formal Verification
+</h3>
+
+<p class="text-gray-400">
+Developed assertion-based verification environment using bind files.
+Achieved 100% formal closure using VC Formal and JasperGold by identifying and resolving corner-case arbitration bugs.
+</p>
+
+</div>
+
+
+<div class="bg-gray-900 p-8 rounded-xl border border-gray-800 hover:border-cyan-500 transition">
+
+<h3 class="text-xl font-semibold text-white mb-4">
+SPI Master-Slave Controller
+</h3>
+
+<p class="text-gray-400">
+Designed FSM-based SPI master and slave modules supporting multi-slave configuration.
+Verified full-duplex communication and timing compliance using SystemVerilog testbench.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- CERTIFICATIONS -->
+
+<section id="certifications" class="py-28 border-t border-gray-800">
+
+<div class="max-w-6xl mx-auto px-6">
+
+<h2 class="text-4xl font-semibold mb-16 text-white">
+Certifications
+</h2>
+
+<div class="grid md:grid-cols-2 gap-12">
+
+<div class="bg-gray-900 p-8 rounded-xl border border-gray-800 text-center">
+
+<a href="https://www.credly.com/badges/514f339c-9805-4aac-ad4f-ef7871f5c298/public_url" target="_blank">
+
+<img src="systemverilog-for-design-and-verification-v25-03-ex.png"
+class="mx-auto mb-6 rounded-lg">
+
+</a>
+
+<h3 class="text-white text-xl">
+SystemVerilog for Design & Verification
+</h3>
+
+<p class="text-gray-400">
+Cadence Design Systems
+</p>
+
+</div>
+
+
+<div class="bg-gray-900 p-8 rounded-xl border border-gray-800 text-center">
+
+<a href="https://www.credly.com/badges/2fa217dc-d930-409a-aa2f-7e18d5691379/public_url" target="_blank">
+
+<img src="essential-systemverilog-for-uvm-v1-2-5rev3-exam.png"
+class="mx-auto mb-6 rounded-lg">
+
+</a>
+
+<h3 class="text-white text-xl">
+Essential SystemVerilog for UVM
+</h3>
+
+<p class="text-gray-400">
+Cadence Design Systems
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- CONTACT -->
+
+<section id="contact" class="py-28 border-t border-gray-800">
+
+<div class="max-w-3xl mx-auto px-6">
+
+<h2 class="text-4xl font-semibold mb-10 text-white">
+Contact
+</h2>
+
+<p class="text-gray-400 mb-3">
+Email(📧): hruthik@pdx.edu
+</p>
+
+<p class="text-gray-400 mb-3">
+Phone(☎️)): +1 (503)-421-9673
+</p>
+
+<p class="text-gray-400 mb-3">
+Portland(📭), Oregon
+</p>
+
+<p class="text-gray-400">
+<strong>LinkedIn:</strong>
+<a href="https://www.linkedin.com/in/hruthikjayarama" target="_blank" class="text-cyan-400">
+linkedin.com/in/hruthikjayarama
+</a>
+</p>
+
+</div>
+
+</section>
+
+
+
+<footer class="border-t border-gray-800 py-8 text-center text-gray-500">
 
 <p>© 2026 Hruthik Jayarama</p>
 
 </footer>
 
-<script src="/js/script.js"></script>
+</main>
+
+<script src="script.js"></script>
 
 </body>
 </html>
