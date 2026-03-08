@@ -6,11 +6,11 @@ font-family:Arial, Helvetica, sans-serif;
 }
 
 body{
-background:#fafafa;
+background:#ffffff;
 color:#111;
 }
 
-/* HERO */
+/* HEADER */
 
 .hero{
 background:#dc2626;
@@ -20,7 +20,7 @@ padding:60px 20px;
 }
 
 .hero h1{
-font-size:40px;
+font-size:42px;
 margin-bottom:10px;
 }
 
@@ -29,14 +29,14 @@ margin-bottom:10px;
 .container{
 max-width:1100px;
 margin:auto;
-padding:40px 20px;
+padding:50px 20px;
 }
 
-/* SECTION TITLE */
+/* TITLES */
 
 .section-title{
 font-size:28px;
-margin-bottom:25px;
+margin-bottom:30px;
 color:#dc2626;
 }
 
@@ -44,33 +44,37 @@ color:#dc2626;
 
 .about-box{
 background:white;
-padding:30px;
+padding:35px;
 border-radius:10px;
 border:1px solid #e5e7eb;
-box-shadow:0 4px 10px rgba(0,0,0,0.05);
+box-shadow:0 6px 15px rgba(0,0,0,0.08);
 }
 
-/* GRID LAYOUT */
+/* PROJECT GRID */
 
 .projects-grid{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+grid-template-columns:repeat(3,1fr);
 gap:25px;
 }
+
+/* SKILLS GRID */
 
 .skills-grid{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+grid-template-columns:repeat(3,1fr);
 gap:20px;
 }
 
+/* CERT GRID */
+
 .cert-grid{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+grid-template-columns:repeat(2,1fr);
 gap:25px;
 }
 
-/* YOUR CSS */
+/* BOX STYLES */
 
 .skill-box,
 .project-box,
@@ -80,6 +84,12 @@ padding:25px;
 border-radius:10px;
 border:1px solid #e5e7eb;
 box-shadow:0 4px 10px rgba(0,0,0,0.05);
+transition:0.3s;
+}
+
+.skill-box:hover,
+.project-box:hover{
+transform:translateY(-5px);
 }
 
 .skill-box h3,
