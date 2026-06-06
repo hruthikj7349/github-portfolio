@@ -12,14 +12,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
-<body>
 
+<body>
   <main>
 
     <aside class="sidebar" data-sidebar>
-
       <div class="sidebar-info">
-
         <figure class="avatar-box">
           <div class="avatar-initials">HJ</div>
         </figure>
@@ -33,7 +31,6 @@
           <span>Show Contacts</span>
           <ion-icon name="chevron-down"></ion-icon>
         </button>
-
       </div>
 
       <div class="sidebar-info_more">
@@ -99,7 +96,6 @@
     </aside>
 
     <div class="main-content">
-
       <nav class="navbar">
         <ul class="navbar-list">
           <li class="navbar-item">
@@ -130,9 +126,31 @@
             Graduate student at Portland State University specializing in Design Verification and Validation with a strong focus on Computer Architecture, UVM, and Formal Verification methodologies.
             Experienced in developing robust testbenches, creating functional and code coverage models, and applying formal methods to ensure design correctness.
           </p>
+
           <p>
             Skilled in verifying complex digital systems including MAC units, with attention to performance, reliability, and edge-case validation. Passionate about bridging the gap between architecture and verification to deliver hardware that works as intended.
           </p>
+        </section>
+
+        <section class="about-stats">
+          <ul class="stats-list">
+            <li class="stats-item">
+              <div class="stats-number">3.75</div>
+              <div class="stats-label">GPA</div>
+            </li>
+            <li class="stats-item">
+              <div class="stats-number">6</div>
+              <div class="stats-label">Projects</div>
+            </li>
+            <li class="stats-item">
+              <div class="stats-number">2</div>
+              <div class="stats-label">Certifications</div>
+            </li>
+            <li class="stats-item">
+              <div class="stats-number">1+</div>
+              <div class="stats-label">Years Experience</div>
+            </li>
+          </ul>
         </section>
 
         <section class="service">
@@ -341,6 +359,7 @@
                 <ion-icon name="chevron-down"></ion-icon>
               </div>
             </button>
+
             <ul class="select-list">
               <li class="select-item"><button data-select-item>All</button></li>
               <li class="select-item"><button data-select-item>RTL Design</button></li>
@@ -352,7 +371,9 @@
           <ul class="project-list">
             <li class="project-item active" data-filter-item data-category="rtl design">
               <div class="project-card">
-                <div class="project-card-icon"><ion-icon name="server-outline"></ion-icon></div>
+                <div class="project-card-icon">
+                  <ion-icon name="server-outline"></ion-icon>
+                </div>
                 <div class="project-card-content">
                   <h3 class="project-title">Split L1 + Shared L2 Cache Controller</h3>
                   <p class="project-category">RTL Design · MESI Coherence</p>
@@ -368,7 +389,9 @@
 
             <li class="project-item active" data-filter-item data-category="verification">
               <div class="project-card">
-                <div class="project-card-icon"><ion-icon name="shield-checkmark-outline"></ion-icon></div>
+                <div class="project-card-icon">
+                  <ion-icon name="shield-checkmark-outline"></ion-icon>
+                </div>
                 <div class="project-card-content">
                   <h3 class="project-title">Asynchronous FIFO with UVM Verification</h3>
                   <p class="project-category">Verification · UVM</p>
@@ -384,7 +407,9 @@
 
             <li class="project-item active" data-filter-item data-category="architecture">
               <div class="project-card">
-                <div class="project-card-icon"><ion-icon name="git-network-outline"></ion-icon></div>
+                <div class="project-card-icon">
+                  <ion-icon name="git-network-outline"></ion-icon>
+                </div>
                 <div class="project-card-content">
                   <h3 class="project-title">MIPS Lite 5-Stage Pipeline Simulator</h3>
                   <p class="project-category">Architecture · Pipeline</p>
@@ -400,7 +425,9 @@
 
             <li class="project-item active" data-filter-item data-category="architecture">
               <div class="project-card">
-                <div class="project-card-icon"><ion-icon name="analytics-outline"></ion-icon></div>
+                <div class="project-card-icon">
+                  <ion-icon name="analytics-outline"></ion-icon>
+                </div>
                 <div class="project-card-content">
                   <h3 class="project-title">Tomasulo's Algorithm Simulator</h3>
                   <p class="project-category">Architecture · Out-of-Order</p>
@@ -416,7 +443,9 @@
 
             <li class="project-item active" data-filter-item data-category="verification">
               <div class="project-card">
-                <div class="project-card-icon"><ion-icon name="checkmark-done-circle-outline"></ion-icon></div>
+                <div class="project-card-icon">
+                  <ion-icon name="checkmark-done-circle-outline"></ion-icon>
+                </div>
                 <div class="project-card-content">
                   <h3 class="project-title">2×2 Arbiter — Formal Verification</h3>
                   <p class="project-category">Verification · Formal Methods</p>
@@ -432,7 +461,9 @@
 
             <li class="project-item active" data-filter-item data-category="rtl design">
               <div class="project-card">
-                <div class="project-card-icon"><ion-icon name="swap-horizontal-outline"></ion-icon></div>
+                <div class="project-card-icon">
+                  <ion-icon name="swap-horizontal-outline"></ion-icon>
+                </div>
                 <div class="project-card-content">
                   <h3 class="project-title">SPI Master-Slave Controller</h3>
                   <p class="project-category">RTL Design · Protocols</p>
@@ -599,6 +630,5 @@
   <script src="./assets/js/script.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
 </body>
 </html>
