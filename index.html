@@ -1,323 +1,739 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Hruthik Jayarama | Hardware Design & Verification</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hruthik Jayarama — Hardware Design & Verification</title>
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-<!-- FIXED LEFT SIDEBAR -->
-<aside class="sidebar">
-  <div class="sidebar-inner">
+  <main>
 
-    <div class="sidebar-top">
-      <div class="sidebar-name">Hruthik<br>Jayarama</div>
-      <div class="sidebar-title">MS ECE · Portland State</div>
-      <div class="sidebar-sub">Hardware Design &amp; Verification</div>
-    </div>
+    <!--  SIDEBAR  -->
+    <aside class="sidebar" data-sidebar>
 
-    <nav class="sidebar-nav">
-      <a href="#about" class="nav-link active" data-section="about">About</a>
-      <a href="#skills" class="nav-link" data-section="skills">Skills</a>
-      <a href="#projects" class="nav-link" data-section="projects">Projects</a>
-      <a href="#certifications" class="nav-link" data-section="certifications">Certifications</a>
-      <a href="#contact" class="nav-link" data-section="contact">Contact</a>
-    </nav>
+      <div class="sidebar-info">
 
-    <div class="sidebar-bottom">
-      <a href="HRUTHIK_JAYARAMA_Resume_Resume (1).pdf" class="btn-resume" target="_blank">
-        <span class="btn-icon">↓</span> Resume
-      </a>
-      <div class="social-links">
-        <a href="https://github.com/hruthikj7349" target="_blank" class="social-link">GitHub</a>
-        <a href="https://www.linkedin.com/in/hruthikjayarama" target="_blank" class="social-link">LinkedIn</a>
-      </div>
-    </div>
+        <figure class="avatar-box">
+          <div class="avatar-initials">HJ</div>
+        </figure>
 
-  </div>
-</aside>
-
-<!-- MAIN CONTENT -->
-<main class="content">
-
-  <!-- ABOUT -->
-  <section id="about">
-    <div class="section-label">01 — About</div>
-    <h1 class="hero-name">Hardware Design<br>&amp; Verification Engineer</h1>
-    <div class="about-body">
-      <p>
-        Graduate student at Portland State University specializing in
-        <span class="highlight">Design Verification and Validation</span>
-        with a strong focus on Computer Architecture, UVM, and Formal Verification methodologies.
-      </p>
-      <p>
-        Experienced in developing robust testbenches, creating functional and code coverage models,
-        and applying formal methods to ensure design correctness. Skilled in verifying complex digital
-        systems including MAC units, with attention to performance, reliability, and edge-case validation.
-      </p>
-      <p>
-        Passionate about bridging the gap between architecture and verification to deliver hardware that works as intended.
-      </p>
-    </div>
-    <div class="about-stats">
-      <div class="stat">
-        <div class="stat-num">3.75</div>
-        <div class="stat-label">GPA</div>
-      </div>
-      <div class="stat">
-        <div class="stat-num">6</div>
-        <div class="stat-label">Projects</div>
-      </div>
-      <div class="stat">
-        <div class="stat-num">2</div>
-        <div class="stat-label">Certifications</div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SKILLS -->
-  <section id="skills">
-    <div class="section-label">02 — Skills</div>
-    <h2 class="section-title">Technical Skills</h2>
-
-    <div class="skills-grid">
-
-      <div class="skill-group">
-        <div class="skill-group-title">Programming &amp; HDL</div>
-        <div class="skill-tags">
-          <span>Verilog</span>
-          <span>SystemVerilog</span>
-          <span>UVM</span>
-          <span>Python</span>
-          <span>C</span>
+        <div class="info-content">
+          <h1 class="name" title="Hruthik Jayarama">Hruthik Jayarama</h1>
+          <p class="title">Hardware Design & Verification</p>
         </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
       </div>
 
-      <div class="skill-group">
-        <div class="skill-group-title">Architecture &amp; Design</div>
-        <div class="skill-tags">
-          <span>Cache Coherence (MESI, MSI)</span>
-          <span>Pipelining &amp; Forwarding</span>
-          <span>Out-of-Order Execution</span>
-          <span>Branch Prediction</span>
-          <span>DDR &amp; Memory Systems</span>
-          <span>MIPS Architecture</span>
-        </div>
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:hruthik@pdx.edu" class="contact-link">hruthik@pdx.edu</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+15034219673" class="contact-link">+1 (503) 421-9673</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="school-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">University</p>
+              <address>Portland State University</address>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Portland, Oregon, USA</address>
+            </div>
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://github.com/hruthikj7349" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/hruthikjayarama" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
       </div>
 
-      <div class="skill-group">
-        <div class="skill-group-title">Verification</div>
-        <div class="skill-tags">
-          <span>Functional &amp; Code Coverage</span>
-          <span>Randomization &amp; Sequences</span>
-          <span>Concurrent Assertions</span>
-          <span>Formal Verification</span>
-          <span>VC Formal</span>
-          <span>JasperGold</span>
-        </div>
-      </div>
+    </aside>
 
-      <div class="skill-group">
-        <div class="skill-group-title">Tools &amp; Platforms</div>
-        <div class="skill-tags">
-          <span>Siemens QuestaSim</span>
-          <span>Cadence Virtuoso</span>
-          <span>ModelSim</span>
-          <span>Xilinx Simulator</span>
-          <span>Linux / Windows</span>
-          <span>MobaXterm</span>
-        </div>
-      </div>
 
-      <div class="skill-group">
-        <div class="skill-group-title">Protocols</div>
-        <div class="skill-tags">
-          <span>UART</span>
-          <span>SPI</span>
-          <span>I2C</span>
-          <span>APB</span>
-        </div>
-      </div>
+    <!--  MAIN CONTENT  -->
+    <div class="main-content">
 
-    </div>
-  </section>
+      <!--  NAVBAR  -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Certifications</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
 
-  <!-- PROJECTS -->
-  <section id="projects">
-    <div class="section-label">03 — Projects</div>
-    <h2 class="section-title">Featured Projects</h2>
 
-    <div class="projects-list">
+      <!--  ABOUT  -->
+      <article class="about active" data-page="about">
 
-      <div class="project-card">
-        <div class="project-header">
-          <div class="project-num">01</div>
-          <h3 class="project-name">Split L1 + Shared L2 Cache Controller (MESI)</h3>
-          <div class="project-tags">
-            <span>SystemVerilog</span>
-            <span>Cache Coherence</span>
-            <span>RTL Design</span>
+        <header>
+          <h2 class="h2 article-title">About Me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Graduate student at Portland State University specializing in Design Verification and Validation
+            with a strong focus on Computer Architecture, UVM, and Formal Verification methodologies.
+            Experienced in developing robust testbenches, creating functional and code coverage models,
+            and applying formal methods to ensure design correctness.
+          </p>
+          <p>
+            Skilled in verifying complex digital systems including MAC units, with attention to performance,
+            reliability, and edge-case validation. Passionate about bridging the gap between architecture and
+            verification to deliver hardware that works as intended.
+          </p>
+        </section>
+
+        <!-- stats -->
+        <section class="about-stats">
+          <ul class="stats-list">
+            <li class="stats-item">
+              <div class="stats-number">3.75</div>
+              <div class="stats-label">GPA</div>
+            </li>
+            <li class="stats-item">
+              <div class="stats-number">6</div>
+              <div class="stats-label">Projects</div>
+            </li>
+            <li class="stats-item">
+              <div class="stats-number">2</div>
+              <div class="stats-label">Certifications</div>
+            </li>
+            <li class="stats-item">
+              <div class="stats-number">1+</div>
+              <div class="stats-label">Years Experience</div>
+            </li>
+          </ul>
+        </section>
+
+        <!-- what I do -->
+        <section class="service">
+
+          <h3 class="h3 service-title">What I Do</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="git-branch-outline" style="font-size:36px; color: var(--orange-yellow-crayola);"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">RTL Design</h4>
+                <p class="service-item-text">
+                  Designing complex digital systems in Verilog and SystemVerilog — pipelines, cache controllers, arbiters, and communication interfaces.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="shield-checkmark-outline" style="font-size:36px; color: var(--orange-yellow-crayola);"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">UVM Verification</h4>
+                <p class="service-item-text">
+                  Building reusable UVM testbenches with randomized stimulus, functional coverage models, and constrained-random sequences.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="checkmark-circle-outline" style="font-size:36px; color: var(--orange-yellow-crayola);"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Formal Verification</h4>
+                <p class="service-item-text">
+                  Applying assertion-based formal methods using VC Formal and JasperGold to achieve 100% formal closure on critical design properties.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="hardware-chip-outline" style="font-size:36px; color: var(--orange-yellow-crayola);"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Computer Architecture</h4>
+                <p class="service-item-text">
+                  Modeling and simulating advanced microarchitecture concepts — out-of-order execution, cache coherence protocols, and pipeline design.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--  RESUME  -->
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <!-- Education -->
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
           </div>
-        </div>
-        <p class="project-desc">
-          Designed 4-way instruction and 8-way data L1 caches with LRU replacement policy.
-          Implemented inclusive shared L2 cache supporting 4-core architecture.
-          Integrated MESI coherence protocol and validated zero coherence violations through
-          protocol-level verification and performance tracking logic.
-        </p>
-      </div>
 
-      <div class="project-card">
-        <div class="project-header">
-          <div class="project-num">02</div>
-          <h3 class="project-name">MIPS Lite 5-Stage Pipeline Simulator</h3>
-          <div class="project-tags">
-            <span>Computer Architecture</span>
-            <span>Pipeline</span>
-            <span>Hazard Detection</span>
-          </div>
-        </div>
-        <p class="project-desc">
-          Developed functional and cycle-accurate timing simulator for MIPS-lite ISA modeling 5-stage
-          in-order pipeline. Implemented forwarding logic to resolve RAW hazards and mitigate branch
-          mispredictions. Performed trace analysis and quantitative speedup evaluation.
-        </p>
-      </div>
+          <ol class="timeline-list">
 
-      <div class="project-card">
-        <div class="project-header">
-          <div class="project-num">03</div>
-          <h3 class="project-name">Tomasulo's Algorithm Simulator</h3>
-          <div class="project-tags">
-            <span>Out-of-Order Execution</span>
-            <span>Register Renaming</span>
-            <span>Dynamic Scheduling</span>
-          </div>
-        </div>
-        <p class="project-desc">
-          Architected dynamic scheduling engine with reservation stations and register renaming.
-          Supported 8+ instruction types enabling out-of-order execution and throughput analysis
-          using latency modeling and cycle-accurate simulation.
-        </p>
-      </div>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">M.S. Electrical & Computer Engineering</h4>
+              <span>Portland State University · 2023 — Present</span>
+              <p class="timeline-text">
+                Specializing in Design Verification and Validation. GPA: 3.75. Coursework includes Computer Architecture,
+                UVM-Based Verification, Formal Methods, and VLSI Design.
+              </p>
+            </li>
 
-      <div class="project-card">
-        <div class="project-header">
-          <div class="project-num">04</div>
-          <h3 class="project-name">Asynchronous FIFO with UVM Verification</h3>
-          <div class="project-tags">
-            <span>UVM</span>
-            <span>Functional Coverage</span>
-            <span>Async Design</span>
-          </div>
-        </div>
-        <p class="project-desc">
-          Designed 256-depth async FIFO with full, empty, half-full, and quarter-full flags.
-          Mitigated metastability risks and achieved 95%+ functional coverage through
-          reusable UVM-based verification environment.
-        </p>
-      </div>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">B.E. Electronics & Communication Engineering</h4>
+              <span>Undergraduate · 2019 — 2023</span>
+              <p class="timeline-text">
+                Foundation in digital electronics, signal processing, embedded systems, and communication protocols.
+              </p>
+            </li>
 
-      <div class="project-card">
-        <div class="project-header">
-          <div class="project-num">05</div>
-          <h3 class="project-name">2×2 Arbiter — Formal Verification</h3>
-          <div class="project-tags">
-            <span>VC Formal</span>
-            <span>JasperGold</span>
-            <span>Assertion-Based</span>
-          </div>
-        </div>
-        <p class="project-desc">
-          Developed assertion-based verification environment using bind files.
-          Achieved 100% formal closure using VC Formal and JasperGold by identifying
-          and resolving corner-case arbitration bugs.
-        </p>
-      </div>
+          </ol>
+        </section>
 
-      <div class="project-card">
-        <div class="project-header">
-          <div class="project-num">06</div>
-          <h3 class="project-name">SPI Master-Slave Controller</h3>
-          <div class="project-tags">
-            <span>SPI</span>
-            <span>FSM Design</span>
-            <span>SystemVerilog</span>
+        <!-- Experience -->
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
           </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Embedded Firmware Intern</h4>
+              <span>Sarayu Infotech Solutions, Bangalore · 2022</span>
+              <p class="timeline-text">
+                Developed firmware for STM32F103 ARM Cortex-M3 microcontrollers. Performed hardware debugging,
+                protocol testing across UART/SPI/I2C interfaces, and contributed to embedded software validation workflows.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Office Assistant</h4>
+              <span>Campus Rec, Portland State University · 2023 — Present</span>
+              <p class="timeline-text">
+                Supporting Campus Recreation operations while pursuing graduate studies.
+              </p>
+            </li>
+
+          </ol>
+        </section>
+
+        <!-- Skills -->
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Core Skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">SystemVerilog / UVM</h5>
+                <data value="92">92%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 92%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Formal Verification (VC Formal / JasperGold)</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Computer Architecture</h5>
+                <data value="88">88%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 88%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">RTL Design (Verilog)</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Python / C</h5>
+                <data value="75">75%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+        <div class="resume-download">
+          <a href="HRUTHIK_JAYARAMA_Resume_Resume (1).pdf" target="_blank" class="resume-btn">
+            <ion-icon name="download-outline"></ion-icon>
+            <span>Download Full Resume</span>
+          </a>
         </div>
-        <p class="project-desc">
-          Designed FSM-based SPI master and slave modules supporting multi-slave configuration.
-          Verified full-duplex communication and timing compliance using SystemVerilog testbench.
-        </p>
-      </div>
+
+      </article>
+
+
+      <!--  PROJECTS  -->
+      <article class="portfolio" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>RTL Design</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Verification</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Architecture</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+            <ul class="select-list">
+              <li class="select-item"><button data-select-item>All</button></li>
+              <li class="select-item"><button data-select-item>RTL Design</button></li>
+              <li class="select-item"><button data-select-item>Verification</button></li>
+              <li class="select-item"><button data-select-item>Architecture</button></li>
+            </ul>
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item active" data-filter-item data-category="rtl design">
+              <div class="project-card">
+                <div class="project-card-icon">
+                  <ion-icon name="server-outline"></ion-icon>
+                </div>
+                <div class="project-card-content">
+                  <h3 class="project-title">Split L1 + Shared L2 Cache Controller</h3>
+                  <p class="project-category">RTL Design · MESI Coherence</p>
+                  <p class="project-desc">
+                    Designed 4-way instruction and 8-way data L1 caches with LRU replacement. Implemented inclusive
+                    shared L2 cache supporting 4-core architecture with MESI coherence protocol. Validated zero
+                    coherence violations through protocol-level verification.
+                  </p>
+                  <ul class="project-tech">
+                    <li>SystemVerilog</li><li>MESI Protocol</li><li>Cache Coherence</li><li>LRU Policy</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="verification">
+              <div class="project-card">
+                <div class="project-card-icon">
+                  <ion-icon name="shield-checkmark-outline"></ion-icon>
+                </div>
+                <div class="project-card-content">
+                  <h3 class="project-title">Asynchronous FIFO with UVM Verification</h3>
+                  <p class="project-category">Verification · UVM</p>
+                  <p class="project-desc">
+                    Designed 256-depth async FIFO with full, empty, half-full, and quarter-full flags.
+                    Mitigated metastability risks and achieved 95%+ functional coverage through a
+                    reusable UVM-based verification environment with constrained-random sequences.
+                  </p>
+                  <ul class="project-tech">
+                    <li>UVM</li><li>SystemVerilog</li><li>Functional Coverage</li><li>Randomization</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="architecture">
+              <div class="project-card">
+                <div class="project-card-icon">
+                  <ion-icon name="git-network-outline"></ion-icon>
+                </div>
+                <div class="project-card-content">
+                  <h3 class="project-title">MIPS Lite 5-Stage Pipeline Simulator</h3>
+                  <p class="project-category">Architecture · Pipeline</p>
+                  <p class="project-desc">
+                    Developed functional and cycle-accurate timing simulator for MIPS-lite ISA modeling a
+                    5-stage in-order pipeline. Implemented forwarding logic to resolve RAW hazards and mitigate
+                    branch mispredictions. Performed trace analysis and quantitative speedup evaluation.
+                  </p>
+                  <ul class="project-tech">
+                    <li>MIPS ISA</li><li>Pipeline</li><li>Hazard Detection</li><li>Forwarding</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="architecture">
+              <div class="project-card">
+                <div class="project-card-icon">
+                  <ion-icon name="analytics-outline"></ion-icon>
+                </div>
+                <div class="project-card-content">
+                  <h3 class="project-title">Tomasulo's Algorithm Simulator</h3>
+                  <p class="project-category">Architecture · Out-of-Order</p>
+                  <p class="project-desc">
+                    Architected dynamic scheduling engine with reservation stations and register renaming.
+                    Supported 8+ instruction types enabling out-of-order execution and throughput analysis
+                    using latency modeling and cycle-accurate simulation.
+                  </p>
+                  <ul class="project-tech">
+                    <li>Tomasulo</li><li>Register Renaming</li><li>OOO Execution</li><li>Cycle Simulation</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="verification">
+              <div class="project-card">
+                <div class="project-card-icon">
+                  <ion-icon name="checkmark-done-circle-outline"></ion-icon>
+                </div>
+                <div class="project-card-content">
+                  <h3 class="project-title">2×2 Arbiter — Formal Verification</h3>
+                  <p class="project-category">Verification · Formal Methods</p>
+                  <p class="project-desc">
+                    Developed assertion-based verification environment using bind files.
+                    Achieved 100% formal closure using VC Formal and JasperGold by identifying
+                    and resolving corner-case arbitration bugs not caught by simulation.
+                  </p>
+                  <ul class="project-tech">
+                    <li>VC Formal</li><li>JasperGold</li><li>SVA Assertions</li><li>Bind Files</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="rtl design">
+              <div class="project-card">
+                <div class="project-card-icon">
+                  <ion-icon name="swap-horizontal-outline"></ion-icon>
+                </div>
+                <div class="project-card-content">
+                  <h3 class="project-title">SPI Master-Slave Controller</h3>
+                  <p class="project-category">RTL Design · Protocols</p>
+                  <p class="project-desc">
+                    Designed FSM-based SPI master and slave modules supporting multi-slave configuration.
+                    Verified full-duplex communication and timing compliance using a SystemVerilog testbench
+                    covering all operating modes and edge cases.
+                  </p>
+                  <ul class="project-tech">
+                    <li>SPI</li><li>FSM</li><li>SystemVerilog</li><li>Full-Duplex</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--  CERTIFICATIONS  -->
+      <article class="certifications" data-page="certifications">
+
+        <header>
+          <h2 class="h2 article-title">Certifications</h2>
+        </header>
+
+        <section class="cert-section">
+
+          <div class="cert-grid">
+
+            <a href="https://www.credly.com/badges/514f339c-9805-4aac-ad4f-ef7871f5c298/public_url"
+               target="_blank" class="cert-card">
+              <div class="cert-badge-wrap">
+                <img src="systemverilog-for-design-and-verification-v25-03-ex.png"
+                     alt="SystemVerilog for Design & Verification badge">
+              </div>
+              <div class="cert-info">
+                <h4 class="cert-title">SystemVerilog for Design & Verification</h4>
+                <p class="cert-issuer">Cadence Design Systems</p>
+                <span class="cert-link-label">
+                  View on Credly <ion-icon name="open-outline"></ion-icon>
+                </span>
+              </div>
+            </a>
+
+            <a href="https://www.credly.com/badges/2fa217dc-d930-409a-aa2f-7e18d5691379/public_url"
+               target="_blank" class="cert-card">
+              <div class="cert-badge-wrap">
+                <img src="essential-systemverilog-for-uvm-v1-2-5rev3-exam.png"
+                     alt="Essential SystemVerilog for UVM badge">
+              </div>
+              <div class="cert-info">
+                <h4 class="cert-title">Essential SystemVerilog for UVM</h4>
+                <p class="cert-issuer">Cadence Design Systems</p>
+                <span class="cert-link-label">
+                  View on Credly <ion-icon name="open-outline"></ion-icon>
+                </span>
+              </div>
+            </a>
+
+          </div>
+
+          <!-- Skills snapshot under certs -->
+          <div class="skills-snapshot">
+            <h3 class="h3" style="margin-bottom: 20px;">Technical Skills Snapshot</h3>
+
+            <div class="skills-columns">
+
+              <div class="skill-col">
+                <h5 class="skill-col-title">Programming & HDL</h5>
+                <ul class="skill-pill-list">
+                  <li>Verilog</li><li>SystemVerilog</li><li>UVM</li><li>Python</li><li>C</li>
+                </ul>
+              </div>
+
+              <div class="skill-col">
+                <h5 class="skill-col-title">Verification</h5>
+                <ul class="skill-pill-list">
+                  <li>Functional Coverage</li><li>Code Coverage</li><li>Randomization</li>
+                  <li>SVA Assertions</li><li>Formal Verification</li><li>VC Formal</li><li>JasperGold</li>
+                </ul>
+              </div>
+
+              <div class="skill-col">
+                <h5 class="skill-col-title">Architecture</h5>
+                <ul class="skill-pill-list">
+                  <li>Cache Coherence (MESI/MSI)</li><li>Pipelining & Forwarding</li>
+                  <li>Out-of-Order Execution</li><li>Branch Prediction</li>
+                  <li>DDR & Memory Systems</li><li>MIPS Architecture</li>
+                </ul>
+              </div>
+
+              <div class="skill-col">
+                <h5 class="skill-col-title">Tools & Protocols</h5>
+                <ul class="skill-pill-list">
+                  <li>Siemens QuestaSim</li><li>Cadence Virtuoso</li><li>ModelSim</li>
+                  <li>UART</li><li>SPI</li><li>I2C</li><li>APB</li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+
+        </section>
+
+      </article>
+
+
+      <!--  CONTACT  -->
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="contact-info-section">
+
+          <ul class="contact-card-list">
+
+            <li class="contact-card">
+              <div class="contact-card-icon">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+              <div>
+                <p class="contact-card-label">Email</p>
+                <a href="mailto:hruthik@pdx.edu" class="contact-card-value">hruthik@pdx.edu</a>
+              </div>
+            </li>
+
+            <li class="contact-card">
+              <div class="contact-card-icon">
+                <ion-icon name="call-outline"></ion-icon>
+              </div>
+              <div>
+                <p class="contact-card-label">Phone</p>
+                <a href="tel:+15034219673" class="contact-card-value">+1 (503) 421-9673</a>
+              </div>
+            </li>
+
+            <li class="contact-card">
+              <div class="contact-card-icon">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+              <div>
+                <p class="contact-card-label">Location</p>
+                <p class="contact-card-value">Portland, Oregon, USA</p>
+              </div>
+            </li>
+
+            <li class="contact-card">
+              <div class="contact-card-icon">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </div>
+              <div>
+                <p class="contact-card-label">LinkedIn</p>
+                <a href="https://www.linkedin.com/in/hruthikjayarama" target="_blank" class="contact-card-value">
+                  linkedin.com/in/hruthikjayarama
+                </a>
+              </div>
+            </li>
+
+            <li class="contact-card">
+              <div class="contact-card-icon">
+                <ion-icon name="logo-github"></ion-icon>
+              </div>
+              <div>
+                <p class="contact-card-label">GitHub</p>
+                <a href="https://github.com/hruthikj7349" target="_blank" class="contact-card-value">
+                  github.com/hruthikj7349
+                </a>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Send a Message</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
 
     </div>
-  </section>
 
-  <!-- CERTIFICATIONS -->
-  <section id="certifications">
-    <div class="section-label">04 — Certifications</div>
-    <h2 class="section-title">Certifications</h2>
+  </main>
 
-    <div class="certs-grid">
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-      <a href="https://www.credly.com/badges/514f339c-9805-4aac-ad4f-ef7871f5c298/public_url" target="_blank" class="cert-card">
-        <img src="systemverilog-for-design-and-verification-v25-03-ex.png" alt="SystemVerilog for Design & Verification badge" class="cert-badge">
-        <div class="cert-info">
-          <div class="cert-name">SystemVerilog for Design &amp; Verification</div>
-          <div class="cert-issuer">Cadence Design Systems</div>
-        </div>
-        <div class="cert-arrow">↗</div>
-      </a>
-
-      <a href="https://www.credly.com/badges/2fa217dc-d930-409a-aa2f-7e18d5691379/public_url" target="_blank" class="cert-card">
-        <img src="essential-systemverilog-for-uvm-v1-2-5rev3-exam.png" alt="Essential SystemVerilog for UVM badge" class="cert-badge">
-        <div class="cert-info">
-          <div class="cert-name">Essential SystemVerilog for UVM</div>
-          <div class="cert-issuer">Cadence Design Systems</div>
-        </div>
-        <div class="cert-arrow">↗</div>
-      </a>
-
-    </div>
-  </section>
-
-  <!-- CONTACT -->
-  <section id="contact">
-    <div class="section-label">05 — Contact</div>
-    <h2 class="section-title">Get in Touch</h2>
-
-    <div class="contact-grid">
-      <a href="mailto:hruthik@pdx.edu" class="contact-item">
-        <div class="contact-label">Email</div>
-        <div class="contact-value">hruthik@pdx.edu</div>
-      </a>
-      <a href="tel:+15034219673" class="contact-item">
-        <div class="contact-label">Phone</div>
-        <div class="contact-value">+1 (503) 421-9673</div>
-      </a>
-      <div class="contact-item no-link">
-        <div class="contact-label">Location</div>
-        <div class="contact-value">Portland, Oregon</div>
-      </div>
-      <a href="https://www.linkedin.com/in/hruthikjayarama" target="_blank" class="contact-item">
-        <div class="contact-label">LinkedIn</div>
-        <div class="contact-value">linkedin.com/in/hruthikjayarama</div>
-      </a>
-    </div>
-  </section>
-
-  <footer>
-    <p>© 2026 Hruthik Jayarama</p>
-  </footer>
-
-</main>
-
-<script src="main.js"></script>
 </body>
 </html>
