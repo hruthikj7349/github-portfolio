@@ -7,7 +7,7 @@ const elementToggleFunc = function (elem) {
 const sidebar = document.querySelector("[data-sidebar]");
 const sidebarBtn = document.querySelector("[data-sidebar-btn]");
 
-if (sidebarBtn && sidebar) {
+if (sidebar && sidebarBtn) {
   sidebarBtn.addEventListener("click", function () {
     elementToggleFunc(sidebar);
   });
@@ -81,8 +81,10 @@ const pages = document.querySelectorAll("[data-page]");
 
 navigationLinks.forEach(link => {
   link.addEventListener("click", function () {
+    const target = this.innerHTML.toLowerCase();
+
     pages.forEach(page => {
-      if (this.innerHTML.toLowerCase() === page.dataset.page) {
+      if (page.dataset.page === target) {
         page.classList.add("active");
       } else {
         page.classList.remove("active");
@@ -92,9 +94,6 @@ navigationLinks.forEach(link => {
     navigationLinks.forEach(nav => nav.classList.remove("active"));
     this.classList.add("active");
 
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth"
-    });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   });
 });
