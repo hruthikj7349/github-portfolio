@@ -20,10 +20,6 @@
       background: #facc15;
       margin-top: 8px;
     }
-    .map-container {
-      background: url('https://maps.googleapis.com/maps/api/staticmap?center=Portland,Oregon&zoom=12&size=800x400&scale=2&style=feature:all|element:labels|visibility:off&style=feature:landscape|color:0x1f2937') center/cover no-repeat;
-      background-size: cover;
-    }
   </style>
 </head>
 <body class="bg-zinc-950 text-zinc-200">
@@ -41,17 +37,33 @@
       <p class="text-yellow-400 text-center text-lg mt-1">Hardware Design & Verification</p>
 
       <div class="mt-10 space-y-6">
-        <div class="flex gap-3"><i class="fa-solid fa-envelope text-yellow-400 mt-1"></i>
-          <div><p class="text-xs text-gray-400">EMAIL</p><a href="mailto:hruthik@pdx.edu" class="text-sm hover:text-yellow-400">hruthik@pdx.edu</a></div>
+        <div class="flex gap-3">
+          <i class="fa-solid fa-envelope text-yellow-400 mt-1"></i>
+          <div>
+            <p class="text-xs text-gray-400">EMAIL</p>
+            <a href="mailto:hruthik@pdx.edu" class="text-sm hover:text-yellow-400">hruthik@pdx.edu</a>
+          </div>
         </div>
-        <div class="flex gap-3"><i class="fa-solid fa-phone text-yellow-400 mt-1"></i>
-          <div><p class="text-xs text-gray-400">PHONE</p><a href="tel:+15034219673" class="text-sm hover:text-yellow-400">+1 (503) 421-9673</a></div>
+        <div class="flex gap-3">
+          <i class="fa-solid fa-phone text-yellow-400 mt-1"></i>
+          <div>
+            <p class="text-xs text-gray-400">PHONE</p>
+            <a href="tel:+15034219673" class="text-sm hover:text-yellow-400">+1 (503) 421-9673</a>
+          </div>
         </div>
-        <div class="flex gap-3"><i class="fa-solid fa-school text-yellow-400 mt-1"></i>
-          <div><p class="text-xs text-gray-400">UNIVERSITY</p><p class="text-sm">Portland State University</p></div>
+        <div class="flex gap-3">
+          <i class="fa-solid fa-school text-yellow-400 mt-1"></i>
+          <div>
+            <p class="text-xs text-gray-400">UNIVERSITY</p>
+            <p class="text-sm">Portland State University</p>
+          </div>
         </div>
-        <div class="flex gap-3"><i class="fa-solid fa-location-dot text-yellow-400 mt-1"></i>
-          <div><p class="text-xs text-gray-400">LOCATION</p><p class="text-sm">Portland, Oregon, USA</p></div>
+        <div class="flex gap-3">
+          <i class="fa-solid fa-location-dot text-yellow-400 mt-1"></i>
+          <div>
+            <p class="text-xs text-gray-400">LOCATION</p>
+            <p class="text-sm">Portland, Oregon, USA</p>
+          </div>
         </div>
       </div>
 
@@ -61,7 +73,7 @@
       </div>
     </div>
 
-    <!-- Main Area -->
+    <!-- Main Content -->
     <div class="flex-1 flex flex-col overflow-hidden">
       <nav class="bg-zinc-900 border-b border-zinc-800 px-8 py-4">
         <ul class="flex gap-8 text-sm font-medium">
@@ -82,17 +94,42 @@
           <p class="mt-4 text-lg leading-relaxed">Experienced in developing robust testbenches, creating functional and code coverage models, and applying formal methods to ensure design correctness.</p>
 
           <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12">
-            <div class="bg-zinc-900 p-6 rounded-3xl text-center card"><div class="text-5xl font-bold text-yellow-400">3.75</div><div class="text-gray-400 mt-2">GPA</div></div>
-            <div class="bg-zinc-900 p-6 rounded-3xl text-center card"><div class="text-5xl font-bold text-yellow-400">6</div><div class="text-gray-400 mt-2">Projects</div></div>
-            <div class="bg-zinc-900 p-6 rounded-3xl text-center card"><div class="text-5xl font-bold text-yellow-400">2</div><div class="text-gray-400 mt-2">Certifications</div></div>
+            <div class="bg-zinc-900 p-6 rounded-3xl text-center card">
+              <div class="text-5xl font-bold text-yellow-400">3.75</div>
+              <div class="text-gray-400 mt-2">GPA</div>
+            </div>
+            <div class="bg-zinc-900 p-6 rounded-3xl text-center card">
+              <div class="text-5xl font-bold text-yellow-400">6</div>
+              <div class="text-gray-400 mt-2">Projects</div>
+            </div>
+            <div class="bg-zinc-900 p-6 rounded-3xl text-center card">
+              <div class="text-5xl font-bold text-yellow-400">2</div>
+              <div class="text-gray-400 mt-2">Certifications</div>
+            </div>
           </div>
 
           <h3 class="text-2xl font-semibold mt-16 mb-6">What I'm Doing</h3>
           <div class="grid md:grid-cols-2 gap-6">
-            <div class="bg-zinc-900 p-8 rounded-3xl card"><i class="fa-solid fa-microchip text-4xl text-yellow-400 mb-4"></i><h4 class="font-semibold text-xl">RTL Design</h4><p class="text-zinc-400 mt-3">Designing complex digital systems in Verilog and SystemVerilog.</p></div>
-            <div class="bg-zinc-900 p-8 rounded-3xl card"><i class="fa-solid fa-shield-halved text-4xl text-yellow-400 mb-4"></i><h4 class="font-semibold text-xl">UVM Verification</h4><p class="text-zinc-400 mt-3">Building reusable UVM testbenches with randomized stimulus and coverage.</p></div>
-            <div class="bg-zinc-900 p-8 rounded-3xl card"><i class="fa-solid fa-check-circle text-4xl text-yellow-400 mb-4"></i><h4 class="font-semibold text-xl">Formal Verification</h4><p class="text-zinc-400 mt-3">Assertion-based verification using VC Formal and JasperGold.</p></div>
-            <div class="bg-zinc-900 p-8 rounded-3xl card"><i class="fa-solid fa-diagram-project text-4xl text-yellow-400 mb-4"></i><h4 class="font-semibold text-xl">Computer Architecture</h4><p class="text-zinc-400 mt-3">Advanced microarchitecture modeling and simulation.</p></div>
+            <div class="bg-zinc-900 p-8 rounded-3xl card">
+              <i class="fa-solid fa-microchip text-4xl text-yellow-400 mb-4"></i>
+              <h4 class="font-semibold text-xl">RTL Design</h4>
+              <p class="text-zinc-400 mt-3">Designing complex digital systems in Verilog and SystemVerilog.</p>
+            </div>
+            <div class="bg-zinc-900 p-8 rounded-3xl card">
+              <i class="fa-solid fa-shield-halved text-4xl text-yellow-400 mb-4"></i>
+              <h4 class="font-semibold text-xl">UVM Verification</h4>
+              <p class="text-zinc-400 mt-3">Building reusable UVM testbenches with randomized stimulus and coverage.</p>
+            </div>
+            <div class="bg-zinc-900 p-8 rounded-3xl card">
+              <i class="fa-solid fa-check-circle text-4xl text-yellow-400 mb-4"></i>
+              <h4 class="font-semibold text-xl">Formal Verification</h4>
+              <p class="text-zinc-400 mt-3">Assertion-based verification using VC Formal and JasperGold.</p>
+            </div>
+            <div class="bg-zinc-900 p-8 rounded-3xl card">
+              <i class="fa-solid fa-diagram-project text-4xl text-yellow-400 mb-4"></i>
+              <h4 class="font-semibold text-xl">Computer Architecture</h4>
+              <p class="text-zinc-400 mt-3">Advanced microarchitecture modeling and simulation.</p>
+            </div>
           </div>
         </div>
 
@@ -103,8 +140,15 @@
           <div class="mt-10">
             <h3 class="text-2xl font-semibold mb-6 flex items-center gap-3"><i class="fa-solid fa-book"></i> Education</h3>
             <div class="space-y-8">
-              <div><h4 class="text-xl font-semibold">M.S. Electrical & Computer Engineering</h4><p class="text-yellow-400">Portland State University · 2023 — Present</p><p class="text-zinc-400 mt-2">GPA: 3.75</p></div>
-              <div><h4 class="text-xl font-semibold">B.E. Electronics & Communication Engineering</h4><p class="text-yellow-400">2019 — 2023</p></div>
+              <div>
+                <h4 class="text-xl font-semibold">M.S. Electrical & Computer Engineering</h4>
+                <p class="text-yellow-400">Portland State University · 2023 — Present</p>
+                <p class="text-zinc-400 mt-2">GPA: 3.75</p>
+              </div>
+              <div>
+                <h4 class="text-xl font-semibold">B.E. Electronics & Communication Engineering</h4>
+                <p class="text-yellow-400">2019 — 2023</p>
+              </div>
             </div>
           </div>
 
@@ -120,27 +164,50 @@
             </div>
           </div>
 
-          
-       
-          <a href="https://raw.githubusercontent.com/hruthikj7349/github-portfolio/main/HRUTHIKJAYARAMA.RDV.pdf" 
-   target="_blank" 
-   class="inline-flex items-center gap-3 bg-yellow-400 text-black font-semibold px-8 py-4 rounded-2xl hover:bg-yellow-300">
-  <i class="fa-solid fa-download"></i> 
-  Download Full Resume (PDF)
-</a>
+          <div class="mt-10">
+            <a href="https://raw.githubusercontent.com/hruthikj7349/github-portfolio/main/HRUTHIKJAYARAMA.RDV.pdf"
+               target="_blank"
+               class="inline-flex items-center gap-3 bg-yellow-400 text-black font-semibold px-8 py-4 rounded-2xl hover:bg-yellow-300">
+              <i class="fa-solid fa-download"></i>
+              Download Full Resume (PDF)
+            </a>
           </div>
         </div>
 
-        <!-- Projects Page -->
+        <!-- Projects -->
         <div id="page-projects" class="page hidden">
           <h2 class="article-title text-4xl font-bold">Projects</h2>
           <div class="grid md:grid-cols-2 gap-8 mt-10">
-            <div class="bg-zinc-900 p-6 rounded-3xl card"><h3 class="font-semibold">Tomasulo’s Algorithm Simulator</h3><p class="text-yellow-400 text-sm">Oct 2025</p><p class="text-zinc-400 mt-3">Cycle-accurate out-of-order execution with reservation stations and register renaming.</p></div>
-            <div class="bg-zinc-900 p-6 rounded-3xl card"><h3 class="font-semibold">APB Slave Verification</h3><p class="text-yellow-400 text-sm">Jul 2025</p><p class="text-zinc-400 mt-3">Full UVM testbench with 100% coverage.</p></div>
-            <div class="bg-zinc-900 p-6 rounded-3xl card"><h3 class="font-semibold">Asynchronous FIFO UVM Verification</h3><p class="text-yellow-400 text-sm">Apr 2025</p><p class="text-zinc-400 mt-3">Parameterized FIFO with complete UVM environment.</p></div>
-            <div class="bg-zinc-900 p-6 rounded-3xl card"><h3 class="font-semibold">MIPS-Lite 5-Stage Pipeline</h3><p class="text-yellow-400 text-sm">Apr 2025</p><p class="text-zinc-400 mt-3">Functional and timing simulator with hazard handling.</p></div>
-            <div class="bg-zinc-900 p-6 rounded-3xl card"><h3 class="font-semibold">SPI Master-Slave Verification</h3><p class="text-yellow-400 text-sm">Jan 2025</p><p class="text-zinc-400 mt-3">Full protocol verification.</p></div>
-            <div class="bg-zinc-900 p-6 rounded-3xl card"><h3 class="font-semibold">Cache Controller (MESI Coherence)</h3><p class="text-yellow-400 text-sm">Jan 2025</p><p class="text-zinc-400 mt-3">Split L1 + Shared L2 cache system.</p></div>
+            <div class="bg-zinc-900 p-6 rounded-3xl card">
+              <h3 class="font-semibold">Tomasulo’s Algorithm Simulator</h3>
+              <p class="text-yellow-400 text-sm">Oct 2025</p>
+              <p class="text-zinc-400 mt-3">Cycle-accurate out-of-order execution with reservation stations and register renaming.</p>
+            </div>
+            <div class="bg-zinc-900 p-6 rounded-3xl card">
+              <h3 class="font-semibold">APB Slave Verification</h3>
+              <p class="text-yellow-400 text-sm">Jul 2025</p>
+              <p class="text-zinc-400 mt-3">Full UVM testbench with 100% coverage.</p>
+            </div>
+            <div class="bg-zinc-900 p-6 rounded-3xl card">
+              <h3 class="font-semibold">Asynchronous FIFO UVM Verification</h3>
+              <p class="text-yellow-400 text-sm">Apr 2025</p>
+              <p class="text-zinc-400 mt-3">Parameterized FIFO with complete UVM environment.</p>
+            </div>
+            <div class="bg-zinc-900 p-6 rounded-3xl card">
+              <h3 class="font-semibold">MIPS-Lite 5-Stage Pipeline</h3>
+              <p class="text-yellow-400 text-sm">Apr 2025</p>
+              <p class="text-zinc-400 mt-3">Functional and timing simulator with hazard handling.</p>
+            </div>
+            <div class="bg-zinc-900 p-6 rounded-3xl card">
+              <h3 class="font-semibold">SPI Master-Slave Verification</h3>
+              <p class="text-yellow-400 text-sm">Jan 2025</p>
+              <p class="text-zinc-400 mt-3">Full protocol verification.</p>
+            </div>
+            <div class="bg-zinc-900 p-6 rounded-3xl card">
+              <h3 class="font-semibold">Cache Controller (MESI Coherence)</h3>
+              <p class="text-yellow-400 text-sm">Jan 2025</p>
+              <p class="text-zinc-400 mt-3">Split L1 + Shared L2 cache system.</p>
+            </div>
           </div>
         </div>
 
@@ -150,11 +217,17 @@
           <div class="grid md:grid-cols-2 gap-8 mt-10">
             <a href="https://www.credly.com/badges/514f339c-9805-4aac-ad4f-ef7871f5c298/public_url" target="_blank" class="block bg-zinc-900 rounded-3xl overflow-hidden card">
               <img src="https://raw.githubusercontent.com/hruthikj7349/github-portfolio/main/systemverilog-for-design-and-verification-v25-03-ex.png" class="w-full">
-              <div class="p-6"><h4 class="font-semibold">SystemVerilog for Design and Verification</h4><p class="text-yellow-400">Cadence</p></div>
+              <div class="p-6">
+                <h4 class="font-semibold">SystemVerilog for Design and Verification</h4>
+                <p class="text-yellow-400">Cadence</p>
+              </div>
             </a>
             <a href="https://www.credly.com/badges/2fa217dc-d930-409a-aa2f-7e18d5691379/public_url" target="_blank" class="block bg-zinc-900 rounded-3xl overflow-hidden card">
               <img src="https://raw.githubusercontent.com/hruthikj7349/github-portfolio/main/essential-systemverilog-for-uvm-v1-2-5rev3-exam.png" class="w-full">
-              <div class="p-6"><h4 class="font-semibold">Essential SystemVerilog for UVM</h4><p class="text-yellow-400">Cadence</p></div>
+              <div class="p-6">
+                <h4 class="font-semibold">Essential SystemVerilog for UVM</h4>
+                <p class="text-yellow-400">Cadence</p>
+              </div>
             </a>
           </div>
         </div>
@@ -164,7 +237,7 @@
           <h2 class="article-title text-4xl font-bold">Contact</h2>
           
           <div class="mt-8 rounded-3xl overflow-hidden h-96">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d195358.50856327527!2d-122.82712429179747!3d45.54455114886626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54950b0b7da97427%3A0x1c36b9e6f6d18591!2sPortland%2C%20OR!5e0!3m2!1sen!2sus!4v1780788553896!5m2!1sen!2sus" 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d195358.50856327527!2d-122.82712429179747!3d45.54455114886626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54950b0b7da97427%3A0x1c36b9e6f6d18591!2sPortland%2C%20OR!5e0!3m2!1sen!2sus!4v1780788553896!5m2!1sen!2sus"
                     width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
           </div>
 
