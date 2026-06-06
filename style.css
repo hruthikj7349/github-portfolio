@@ -359,7 +359,6 @@ main {
 
 .navbar-link:hover,
 .navbar-link:focus { color: var(--light-gray-70); }
-
 .navbar-link.active { color: var(--orange-yellow-crayola); }
 
 .about .article-title { margin-bottom: 15px; }
@@ -967,7 +966,6 @@ textarea.form-input {
 .form-btn ion-icon { font-size: 16px; }
 
 .form-btn:hover { background: var(--bg-gradient-yellow-1); }
-
 .form-btn:hover::before { background: var(--bg-gradient-yellow-2); }
 
 .form-btn:disabled {
@@ -1044,7 +1042,6 @@ textarea.form-input {
   .avatar-initials { font-size: 36px; }
 
   .info-content .name { margin-bottom: 15px; }
-
   .info-content .title { padding: 5px 18px; }
 
   .info_more-btn {
@@ -1061,7 +1058,6 @@ textarea.form-input {
   .info_more-btn ion-icon { display: none; }
 
   .separator { margin: 32px 0; }
-
   .contacts-list { gap: 20px; }
 
   .contact-info {
@@ -1152,7 +1148,6 @@ textarea.form-input {
   }
 
   .filter-item button:hover { color: var(--light-gray-70); }
-
   .filter-item button.active { color: var(--orange-yellow-crayola); }
 
   .project-list, .blog-posts-list { grid-template-columns: 1fr 1fr; }
