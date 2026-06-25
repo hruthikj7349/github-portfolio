@@ -158,14 +158,14 @@
               <div><strong>Hardware Description / Verification Languages:</strong> SystemVerilog, Verilog, UVM, Python, C</div>
               <div><strong>Verification Methodologies:</strong> Functional Verification, Assertion-Based Verification, Constraint-Random Stimulus, Coverage-Driven Verification, Gate-Level Simulation</div>
               <div><strong>UVM Components:</strong> Agents, Drivers, Monitors, Sequencers, Scoreboards, Coverage Groups, Sequences, RAL</div>
-              <div><strong>EDA Tools:</strong> Siemens QuestaSim, Cadence Xcelium, ModelSim, Xilinx Simulator</div>
+              <div><strong>EDA Tools:</strong> Siemens QuestaSim, ModelSim, Xilinx Simulator, Pspice, VC Formal, JasperGold</div>
               <div><strong>Protocols & Interfaces:</strong> UART, I2C, SPI, APB, AXI, MESI, MSI</div>
               <div><strong>Computer Architecture:</strong> Cache Coherence, Pipelining, Out-of-Order Execution, Branch Prediction, MIPS ISA</div>
             </div>
           </div>
 
           <div class="mt-10">
-            <a href="https://raw.githubusercontent.com/hruthikj7349/github-portfolio/main/HruthikJayarama_R.pdf"
+            <a href="https://raw.githubusercontent.com/hruthikj7349/github-portfolio/main/HruthikJayarama.RDV.pdf"
                target="_blank"
                class="inline-flex items-center gap-3 bg-yellow-400 text-black font-semibold px-8 py-4 rounded-2xl hover:bg-yellow-300">
               <i class="fa-solid fa-download"></i>
@@ -178,35 +178,38 @@
         <div id="page-projects" class="page hidden">
           <h2 class="article-title text-4xl font-bold">Projects</h2>
           <div class="grid md:grid-cols-2 gap-8 mt-10">
+             <div class="bg-zinc-900 p-6 rounded-3xl card">
+              <h3 class="font-semibold">Asynchronous FIFO UVM Verification</h3>
+              <p class="text-yellow-400 text-sm">Apr 2025</p>
+              <p class="text-zinc-400 mt-3"> Understood clock domain crossing challenges and how to verify them, built a complete UVM environment
+with constraint-random stimulus and functional coverage</p>
+            </div>
+               <div class="bg-zinc-900 p-6 rounded-3xl card">
+              <h3 class="font-semibold">2x2 Router / Arbiter – Assertion-Based Formal Verification </h3>
+              <p class="text-yellow-400 text-sm">Oct 2025</p>
+              <p class="text-zinc-400 mt-3">Verified a parameterized 2×2 router using VC Formal and JasperGold; wrote SVA assertions, assumptions,
+and cover properties via bind files to keep the testbench decoupled from the DUT.</p>
+            </div>
             <div class="bg-zinc-900 p-6 rounded-3xl card">
               <h3 class="font-semibold">Tomasulo’s Algorithm Simulator</h3>
               <p class="text-yellow-400 text-sm">Oct 2025</p>
-              <p class="text-zinc-400 mt-3">Cycle-accurate out-of-order execution with reservation stations and register renaming.</p>
+              <p class="text-zinc-400 mt-3"> Implemented a cycle-accurate Tomasulo simulator with reservation stations, register renaming, and CDB to
+model dynamic out-of-order instruction scheduling and instruction latencies</p>
             </div>
-            <div class="bg-zinc-900 p-6 rounded-3xl card">
-              <h3 class="font-semibold">APB Slave Verification</h3>
-              <p class="text-yellow-400 text-sm">Jul 2025</p>
-              <p class="text-zinc-400 mt-3">Full UVM testbench with 100% coverage.</p>
-            </div>
-            <div class="bg-zinc-900 p-6 rounded-3xl card">
-              <h3 class="font-semibold">Asynchronous FIFO UVM Verification</h3>
-              <p class="text-yellow-400 text-sm">Apr 2025</p>
-              <p class="text-zinc-400 mt-3">Parameterized FIFO with complete UVM environment.</p>
-            </div>
+         
+           
             <div class="bg-zinc-900 p-6 rounded-3xl card">
               <h3 class="font-semibold">MIPS-Lite 5-Stage Pipeline</h3>
               <p class="text-yellow-400 text-sm">Apr 2025</p>
-              <p class="text-zinc-400 mt-3">Functional and timing simulator with hazard handling.</p>
+              <p class="text-zinc-400 mt-3">Built a functional and timing simulator for a MIPS-lite ISA with a 5-stage pipeline (IF, ID, EX, MEM,
+WB), RAW hazard detection, branch misprediction handling, and configurable data forwarding.</p>
             </div>
-            <div class="bg-zinc-900 p-6 rounded-3xl card">
-              <h3 class="font-semibold">SPI Master-Slave Verification</h3>
-              <p class="text-yellow-400 text-sm">Jan 2025</p>
-              <p class="text-zinc-400 mt-3">Full protocol verification.</p>
-            </div>
+          
             <div class="bg-zinc-900 p-6 rounded-3xl card">
               <h3 class="font-semibold">Cache Controller (MESI Coherence)</h3>
               <p class="text-yellow-400 text-sm">Jan 2025</p>
-              <p class="text-zinc-400 mt-3">Split L1 + Shared L2 cache system.</p>
+              <p class="text-zinc-400 mt-3">Designed a 4-core split L1 cache (4-way instruction, 8-way data, LRU) with a shared inclusive L2; implemented the full MESI coherence protocol for multi-core cache state management.
+</p>
             </div>
           </div>
         </div>
@@ -226,6 +229,13 @@
               <img src="https://raw.githubusercontent.com/hruthikj7349/github-portfolio/main/essential-systemverilog-for-uvm-v1-2-5rev3-exam.png" class="w-full">
               <div class="p-6">
                 <h4 class="font-semibold">Essential SystemVerilog for UVM</h4>
+                <p class="text-yellow-400">Cadence</p>
+              </div>
+            </a>
+            <a href="https://www.credly.com/badges/8e8e7cd8-6752-4ac9-ada4-559838e9d965/public_url" target="_blank" class="block bg-zinc-900 rounded-3xl overflow-hidden card">
+              <img src="https://raw.githubusercontent.com/hruthikj7349/github-portfolio/main/essential-systemverilog-for-uvm-v1-2-5rev3-exam.png" class="w-full">
+              <div class="p-6">
+                <h4 class="font-semibold">Design For Test Fundamentals</h4>
                 <p class="text-yellow-400">Cadence</p>
               </div>
             </a>
