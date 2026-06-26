@@ -4,11 +4,13 @@ function showPage(page) {
   document.querySelectorAll('.page').forEach(function(pageEl) {
     pageEl.classList.add('hidden');
   });
+
   // Show the selected page
   const targetPage = document.getElementById('page-' + page);
   if (targetPage) {
     targetPage.classList.remove('hidden');
   }
+
   // Update active nav link
   document.querySelectorAll('.nav-link').forEach(function(link) {
     link.classList.remove('active');
@@ -16,30 +18,6 @@ function showPage(page) {
       link.classList.add('active');
     }
   });
-  // Trigger count-up animation when About page is shown
-  if (page === 'about') animateCountUp();
-}
-
-// Count-up animation for stat cards
-function animateCountUp() {
-  setTimeout(() =>{
-  document.querySelectorAll('.count-up').forEach(el => {
-    const target = parseFloat(el.dataset.target);
-    const decimals = parseInt(el.dataset.decimals) || 0;
-    const duration = 1200;
-    const steps = 60;
-    const increment = target / steps;
-    let current = 0;
-    let step = 0;
-    el.textContent = decimals > 0 ? (0).toFixed(decimals) : '0';
-    const timer = setInterval(() => {
-      step++;
-      current = step >= steps ? target : current + increment;
-      el.textContent = decimals > 0 ? current.toFixed(decimals) : Math.round(current);
-      if (step >= steps) clearInterval(timer);
-    }, duration / steps);
-  });
-  }, 100);
 }
 
 // Initialize - show About page by default
