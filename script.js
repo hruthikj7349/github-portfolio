@@ -22,6 +22,7 @@ function showPage(page) {
 
 // Count-up animation for stat cards
 function animateCountUp() {
+  setTimeout(() =>{
   document.querySelectorAll('.count-up').forEach(el => {
     const target = parseFloat(el.dataset.target);
     const decimals = parseInt(el.dataset.decimals) || 0;
@@ -38,6 +39,7 @@ function animateCountUp() {
       if (step >= steps) clearInterval(timer);
     }, duration / steps);
   });
+  }, 100);
 }
 
 // Initialize - show About page by default
