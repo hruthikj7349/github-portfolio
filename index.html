@@ -299,6 +299,7 @@
       document.getElementById('page-' + page).classList.remove('hidden');
       document.querySelectorAll('.nav-link').forEach(link => link.classList.remove('active'));
       document.getElementById('nav-' + page).classList.add('active');
+      if (page === 'about') animateCountUp();
     }
 
     document.addEventListener('DOMContentLoaded', () => showPage('about'));
